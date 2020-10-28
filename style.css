@@ -1,0 +1,85 @@
+/* TODO: design your profile with CSS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@700&display=swap');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f7f9fc;
+}
+
+h1, h2 {
+	font-family: 'Poppins', sans-serif;
+	color: #4bc7b6;
+}
+
+ul {
+	/*list-style: none;*/
+	padding-left: 0;
+}
+
+ul li {
+	display: inline;
+	margin: 0 10px;
+}
+
+ul li i {
+	font-size: 30px;
+}
+
+a {
+	color: #df0199;
+	text-decoration: none;
+	display: inline-block;
+	transition: 0.3s;
+
+}
+
+.btn {
+	background-color: #ff01a7;
+	padding: 8px 24px;
+	border-radius: 4px;
+	color: white;
+}
+
+.btn:hover {
+	background-color: purple;
+	color: white;
+}
+
+a:hover {
+	color: purple;
+}
+
+
+img {
+	border-radius: 50%;
+	/*width: 50%; percentage from the parent element */
+}
+
+.card {
+	width: 500px;
+	/*margin: 10px 20px 30px 40px;              margin: 20px; all four sides */
+	margin: 20px auto;                         /* top/bottom + left/right */
+	background: white;                         /* White background */
+	padding: 30px;                             /* Internal space */
+	border-radius: 4px;                        /* Small radius */
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	text-align: center;
+}
+
+#top-card {
+	background-color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
