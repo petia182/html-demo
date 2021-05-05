@@ -1,43 +1,37 @@
 /* TODO: design your profile with CSS */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700&display=swap');
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	background-color: #f7f9fc;
+	background-color: #f7f7f8;
 }
 
 h1, h2 {
 	font-family: 'Poppins', sans-serif;
-	color: #4bc7b6;
+	color: #4dc9b6;
 }
 
-ul {
-	/*list-style: none;*/
-	padding-left: 0;
+img {
+	border-radius: 50%;
 }
 
-ul li {
-	display: inline;
-	margin: 0 10px;
-}
-
-ul li i {
-	font-size: 30px;
-}
-
-a {
-	color: #df0199;
+a { /* inline element */
 	text-decoration: none;
-	display: inline-block;
+	color: #df0099;
 	transition: 0.3s;
+	/*font-weight: */
+}
 
+a:hover {
+	color: green;
 }
 
 .btn {
-	background-color: #ff01a7;
-	padding: 8px 24px;
-	border-radius: 4px;
+	padding: 16px 34px;
+	background-color: #df0099;
 	color: white;
+	margin-top: 30px;
+	display: inline-block;
 }
 
 .btn:hover {
@@ -45,30 +39,43 @@ a {
 	color: white;
 }
 
-a:hover {
-	color: purple;
+ul li {
+	display: inline-block;
+	margin: 0 10px;
 }
 
+.fab {
+	font-size: 24px;
+}
 
-img {
-	border-radius: 50%;
-	/*width: 50%; percentage from the parent element */
+ul {
+	list-style: none; /* removes bulletpoints from the list */
+	padding-left: 0;
 }
 
 .card {
-	width: 500px;
-	/*margin: 10px 20px 30px 40px;              margin: 20px; all four sides */
-	margin: 20px auto;                         /* top/bottom + left/right */
 	background: white;                         /* White background */
 	padding: 30px;                             /* Internal space */
 	border-radius: 4px;                        /* Small radius */
 	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	width: 600px;
+	/* margin: 0;  margin all around the box */ 
+	/* margin: 0 auto;  2 values - first one is top and bottom; second one is left and right */
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
 	text-align: center;
 }
 
-#top-card {
-	background-color: pink;
+#header {
+	background-color: yellow;
 }
+
+#header p {
+	/*color: red;*/
+}
+
+
 
 
 
